@@ -1,3 +1,9 @@
+# revision 17745
+# category Package
+# catalog-ctan /macros/latex/contrib/mfpic4ode
+# catalog-date 2010-04-07 19:03:48 +0200
+# catalog-license lppl
+# catalog-version 0.4
 Name:		texlive-mfpic4ode
 Version:	0.4
 Release:	1
@@ -55,6 +61,7 @@ available on the Mfpic Previewer as Example 6.
 #- source
 %doc %{_texmfdistdir}/source/latex/mfpic4ode/mfpic4ode.dtx
 %doc %{_texmfdistdir}/source/latex/mfpic4ode/mfpic4ode.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,3 +72,5 @@ available on the Mfpic Previewer as Example 6.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
