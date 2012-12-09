@@ -61,3 +61,17 @@ available on the Mfpic Previewer as Example 6.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4-2
++ Revision: 753938
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.4-1
++ Revision: 719011
+- texlive-mfpic4ode
+- texlive-mfpic4ode
+- texlive-mfpic4ode
+- texlive-mfpic4ode
+
