@@ -6,7 +6,7 @@
 # catalog-version 0.4
 Name:		texlive-mfpic4ode
 Version:	0.4
-Release:	3
+Release:	4
 Summary:	Macros to draw direction fields and solutions of ODEs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mfpic4ode
