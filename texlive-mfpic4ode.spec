@@ -3,7 +3,7 @@ Version:	17745
 Release:	2
 Summary:	Macros to draw direction fields and solutions of ODEs
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mfpic4ode
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/mfpic4ode
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mfpic4ode.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mfpic4ode.doc.r%{version}.tar.xz
